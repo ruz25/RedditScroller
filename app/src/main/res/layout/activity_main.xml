@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#777676"
+    android:backgroundTint="@color/material_dynamic_neutral30"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="732dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="65dp"
+        android:layout_height="189dp"
+        android:background="@color/material_dynamic_neutral30"
+        android:rotation="270"
+        android:scaleType="fitCenter"
+        android:tint="#2196F3"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="65dp"
+        android:layout_height="189dp"
+        android:background="@color/material_dynamic_neutral30"
+        android:rotation="90"
+        android:scaleType="fitCenter"
+        android:tint="#FF9800"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="82dp"
+        android:layout_height="76dp"
+        android:backgroundTint="@color/material_dynamic_neutral30"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/_4_248253_user_profile_default_image_png_clipart_png_download"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="80dp"
+        android:layout_height="78dp"
+        android:backgroundTint="@color/material_dynamic_neutral30"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/reddit_logo"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="64dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/material_dynamic_neutral30"
+        android:scaleType="fitXY"
+        android:tint="#FFFFFF"
+        app:srcCompat="@drawable/settings"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/material_dynamic_neutral90"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
