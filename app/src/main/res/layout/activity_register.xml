@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
     <TextView
         android:id="@+id/textView9"
         android:layout_width="107dp"
@@ -115,4 +115,5 @@
         android:text="I want to be remided on email to visit the app"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="533dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
